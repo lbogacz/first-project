@@ -1,330 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta name="keywords" content="skateboard, hoverboard">
+   <meta name="description" content="Najlepsza strona i jedyna w Polsce z eletrycznymi skateboard">
    <meta name="author" content="Lukasz Bogacz">
-   <meta name="description" content="Website about how to do the best nails in Stevenage">
-   <meta name="keyawords" content="nails, manicure, pedicure, cheaper, stevenage, indor market">
-   <meta name="theme-color" content="#4F1271">
-   <title>Neringa Beauty - Nails Technician</title>
-   <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <title>Dynawit</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src=javaScript/jquery.scrollTo.min.js></script>
-
-   <link rel="stylesheet" href="css/style.css">
-   <script>
-      $(document).ready(function() {
-         jQuery(function($) {
-            $.scrollTo(0);
-            $('.link1').click(function() {
-               $.scrollTo($('#service'), 1000);
-            });
-            $('.link2').click(function() {
-               $.scrollTo($('#special'), 1000);
-            });
-            $('.link3').click(function() {
-               $.scrollTo($('#gallery'), 1000);
-            });
-            $('.link4').click(function() {
-               $.scrollTo($('#about-me'), 1000);
-            });
-            $('.link5').click(function() {
-               $.scrollTo($('#contact'), 1000);
-            });
-            $('.fa-arrow-circle-up').click(function() {
-               $.scrollTo($('*'), 1000);
-            });
-         });
-
-         $(window).scroll(function() {
-            if ($(this).scrollTop() > 300) $('.arrow-up').fadeIn();
-            else $('.arrow-up').fadeOut();
-         });
-      });
-   </script>
+   <script src="js/script.js"></script>
 </head>
 
 <body>
-   <aside class="arrow-up">
-      <i class="fa fa-arrow-circle-up" aria-hidden="true">
-            <a class="scrollup" href="#"></a>
-         </i>
-   </aside>
-   <header class="main-header">
-      <nav class="main-navigation">
-         <ul>
-            <li> <a class="link1" href="#service">Service</a></li>
-         </ul>
-         <ul>
-            <li><a class="link2" href="#special">Special</a></li>
-         </ul>
-         <ul>
-            <li><a class="link3" href="#gallery">Gallery</a></li>
-         </ul>
-         <ul>
-            <li><a class="link4" href="#about-me">About Me</a></li>
-         </ul>
-         <ul>
-            <li><a class="link5" href="#contact">Contact</a></li>
-         </ul>
+   <header class="page-header">
+      <nav class="topnav" id="myTopnav">
+         <aside class="page-logo">
+            <p>Dynawit</p>
+         </aside> <a href="#home" class="active">Home</a>
+         <a href="#news">News</a>
+         <a href="#contact">Contact</a>
+         <a href="#about">About</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </nav>
-      <h1 class="header-title">Neringa Beaty - Nails Technician</h1>
-      <figure>
-         <img src="img/logo.jpeg" alt="logo">
-      </figure>
-      <article class="main-article">
-         <h2>It is all about beauty of your nails,</h2>
-         <h3>How the system of your nails works,</h3>
-         <h4>How to fix damaged nails and make them beautiful again.</h4>
-      </article>
-      <nav class="hamburger">
-         <i class="fa fa-bars" aria-hidden="true">
-            <ul>
-                <li> <a class="link1" href="#service">Service</a></li>
-            </ul>
-            <ul>
-               <li><a class="link2" href="#special">Special</a></li>
-            </ul>
-            <ul>
-               <li><a class="link4" href="#about-me">About Me</a></li>
-            </ul>
-            <ul>  
-               <li><a class="link5" href="#contact">Contact</a></li>
-            </ul>
-         </i>
-      </nav>
+      <div class="page-img-mobile">
+         <figure>
+            <img src="img/hoverboard-2003088_1920.jpg" alt="hoverboard">
+         </figure>
+      </div>
    </header>
 
-   <main>
-
-      <section id="service">
-         <h1>Service</h1>
-         <article class="product-article">
-            <table>
-               <tr>
-                  <th colspan="2">Natural Hands</th>
-                  <th></th>
-               </tr>
-               <tr>
-                  <td class="product">Manicure Deluxe</td>
-                  <td class="price">&pound;25</td>
-               </tr>
-               <tr>
-                  <td class="product">Paraffin Bath</td>
-                  <td class="price">&pound;30</td>
-               </tr>
-               <tr>
-                  <td class="product">Manicure</td>
-                  <td class="price">&pound;15</td>
-               </tr>
-               <tr>
-                  <td class="product">Manicure&amp;Gel</td>
-                  <td class="price">&pound;30</td>
-               </tr>
-               <tr>
-                  <td class="product">Color on Hand</td>
-                  <td class="price">&pound;5</td>
-               </tr>
-               <tr>
-                  <td class="product">Remove Gel Polish</td>
-                  <td class="price">&pound;7.50</td>
-               </tr>
-               <tr>
-                  <td class="product">French Manicure</td>
-                  <td class="price">&pound;25</td>
-               </tr>
-               <tr>
-                  <td class="product">Nail Art</td>
-                  <td class="price">&pound;5-10</td>
-               </tr>
-               <tr>
-                  <td class="product">Gel Color</td>
-                  <td class="price">&pound;15</td>
-               </tr>
-            </table>
-            <table>
-               <tr>
-                  <th colspan="2">Feet</th>
-                  <th></th>
-               </tr>
-               <tr>
-                  <td class="product">Padecire</td>
-                  <td class="price">&pound;20</td>
-               </tr>
-               <tr>
-                  <td class="product">Paraffin Bath&#40;feet&#41;</td>
-                  <td class="price">&pound;35</td>
-               </tr>
-               <tr>
-                  <td class="product">Pedicure&amp;Color</td>
-                  <td class="price">&pound;25</td>
-               </tr>
-               <tr>
-                  <td class="product">Pedicure&amp;Gel Color</td>
-                  <td class="price">&pound;35</td>
-               </tr>
-               <tr>
-                  <td class="product">French Pedicure</td>
-                  <td class="price">&pound;30</td>
-               </tr>
-               <tr>
-                  <td class="product">Color on Feet</td>
-                  <td class="price">&pound;5</td>
-               </tr>
-               <tr>
-                  <td class="product">Remove Gel Polish&#40;feet&#41;</td>
-                  <td class="price">&pound;8</td>
-               </tr>
-            </table>
-            <table>
-               <tr>
-                  <th colspan="2">Tips&#40;Gel&#41;</th>
-                  <th></th>
-               </tr>
-               <tr>
-                  <td class="product">Full Set of Gel</td>
-                  <td class="price">&pound;20</td>
-               </tr>
-               <tr>
-                  <td class="product">Infill of Gel</td>
-                  <td class="price">&pound;15</td>
-               </tr>
-               <tr>
-                  <td class="product">Take off Gell</td>
-                  <td class="price">&pound;15</td>
-               </tr>
-               <tr>
-                  <td class="product">Take off&amp;Full Set</td>
-                  <td class="price">&pound;35</td>
-               </tr>
-               <tr>
-                  <td class="product">One Nail Repair</td>
-                  <td class="price">&pound;3.50</td>
-               </tr>
-               <tr>
-                  <td class="product">Gel Color&#40;white tip any other color&#41;</td>
-                  <td class="price">&pound;20</td>
-               </tr>
-               <tr>
-                  <td class="product">Bio Gel</td>
-                  <td class="price">&pound;15</td>
-               </tr>
-            </table>
-         </article>
-      </section>
-      <section id="special">
-         <h1>Special</h1>
-         <article class="special-article">
-            <p>For loyal Customer every 5<sup>th</sup> time's going to be a special discount</p>
-         </article>
-      </section>
-      <section id="gallery">
-         <h1>Gallery</h1>
-         <article class="gallery-article">
-            <figrue class="portrait">
-               <img src="img/picture_1.jpg" alt="picture_1">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_3.jpg" alt="picture_3">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_5.jpg" alt="picture_5">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_10.jpg" alt="picture_10">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_11.jpg" alt="picture_11">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_12.jpg" alt="picture_12">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_13.jpg" alt="picture_13">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_15.jpg" alt="picture_15">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_16.jpg" alt="picture_16">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_17.jpg" alt="picture_17">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_19.jpg" alt="picture_19">
-            </figrue>
-            <figrue class="portrait">
-               <img src="img/picture_20.jpg" alt="picture_20">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_2.jpg" alt="picture_2">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_4.jpg" alt="picture_4">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_6.jpg" alt="picture_6">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_7.jpg" alt="picture_7">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_8.jpg" alt="picture_8">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_9.jpg" alt="picture_9">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_14.jpg" alt="picture_14">
-            </figrue>
-            <figrue class="landscape">
-               <img src="img/picture_18.jpg" alt="picture_18">
-            </figrue>
-         </article>
-      </section>
-      <section id="about-me">
-         <h1>About Me</h1>
-         <figure class="neringa-photo">
-            <img src="img/Neringa.jpg" alt="Neringa">
-         </figure>
-         <article class="about-article">
-            <p>I am certified nail technician with experience. Creating nail art has always been a passion of mine and I consider myself very lucky to have my hobby as my occupation.</p>
-         </article>
-         <figure class="saloon-photo">
-            <img src="img/view1.jpg" alt="view1">
-            <img src="img/view2.jpg" alt="view2">
-            <img src="img/view3.jpg" alt="view3">
-         </figure>
-      </section>
-      <section id="contact">
-         <h1>Contact</h1>
-         <article class="contact-article">
-            <p>Sunday&nbsp;-&nbsp;Closed</p>
-            <p>Monday&nbsp;-&nbsp;Travel to Customer</p>
-            <p>Tuesday&nbsp;-&nbsp;Travel to Customer</p>
-            <p>Wednesday&nbsp;-&nbsp;8:30-17:30</p>
-            <p>Thursday&nbsp;-&nbsp;8:30-17:30</p>
-            <p>Friday&nbsp;-&nbsp;8:30-17:30</p>
-            <p>Saturday&nbsp;-&nbsp;8:30-17:30</p>
-            <aside class="mapa">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.743868004534!2d-0.20228288388352814!3d51.902138179701936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487631d05551745d%3A0xc8c505fa21823f88!2sIndoor+Market%2C+St.+Georges+Way%2C+Stevenage+SG1+1EP%2C+UK!5e0!3m2!1sen!2spl!4v1504992748434" allowfullscreen=""></iframe>
-            </aside>
-            <a href="https://www.facebook.com/Nernailbeauty/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <p class="address">Indoor Market, St George Way,</p>
-            <p class=address>Stevenage, Herts, SG1 1EP</p>
-            <p class=address><span><i class="fa fa-mobile" aria-hidden="true"></span></i>+447412000641</p>
-            <p class=address><span><i class="fa fa-envelope-o" aria-hidden="true"></span></i>nerynga1@gmail.com</p>
-         </article>
-      </section>
-   </main>
-   <aside class="line"></aside>
-   <footer>Copyright © 2017 Website Designed by lbogacz <a href="mailto:lukas.bogacz@gmail.com"><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span><span>lukas.bogacz@gmail.com</span></a></footer>
-
+   <section class="page-section-content skatebording-evolve">
+      <h2>Skateboarding has evolved</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tenetur labore, ut, autem a tempore ratione facilis, aut voluptatibus nobis vitae. Architecto corporis mollitia, consectetur numquam veniam molestiae repellat delectus!</p>
+   </section>
+   <aside class="page-content-img img-left">
+      <figure>
+         <img src="img/people-2566516_1920.jpg" alt="people">
+      </figure>
+   </aside>
+   <section class="page-section-content live-in-the-moment">
+      <h2>Live in the moment</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam doloribus, inventore animi, facere, culpa quod reiciendis voluptas qui repudiandae molestiae dolores eius earum excepturi consequatur. Dolorum veniam dolorem amet, natus!</p>
+   </section>
+   <aside class="page-content-img img-right">
+      <figure>
+         <img src="img/skateboard-1044717_1920.jpg" alt="people">
+      </figure>
+   </aside>
+   <section class="page-section-content why-dynawit">
+      <h2>Why Dynawit</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis, fuga molestiae dolores porro doloremque dolor modi obcaecati sed facilis voluptatem voluptatibus ea, accusamus, veritatis neque? Quidem sequi provident alias.</p>
+   </section>
+   <aside class="page-content-boards">
+      <figure>
+         <img src="img/skateboard-2565190_1920.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/andrew-guan-6328.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/skateboard-2565190_1920.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/andrew-guan-6328.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/skateboard-2565190_1920.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/andrew-guan-6328.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/skateboard-2565190_1920.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/andrew-guan-6328.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/skateboard-2565190_1920.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+      <figure>
+         <img src="img/andrew-guan-6328.jpg" alt="">
+         <figcaption>Opis Deski</figcaption>
+      </figure>
+   </aside>
+   <aside class="page-content-button">
+      <a href="#">See All Boards</a>
+   </aside>
+   <section class="page-section-content top-design">
+      <h2>Top quality design etc</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nulla quidem fugiat accusamus esse labore quisquam maiores expedita impedit. Voluptatem ut atque assumenda a harum mollitia officiis nesciunt nostrum ad.</p>
+   </section>
+   <footer class="page-footer">
+      <p>Wszelkie Prawa Zastrzezone &copy;</p>
+      <p>Design by lbogacz</p>
+   </footer>
 </body>
 
 </html>
