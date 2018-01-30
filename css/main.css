@@ -12,14 +12,20 @@ body {
 
 /*navbar*/
 
+#myTopnav {
+   position: fixed;
+   top: 0;
+
+}
+
 .topnav {
    width: 100%;
-   position: fixed;
    display: flex;
    justify-content: flex-end;
    overflow: hidden;
    background-color: #333;
 }
+
 
 .topnav a {
    float: right;
@@ -36,23 +42,22 @@ body {
    color: black;
 }
 
+/*
 .active {
    background-color: #4CAF50;
    color: white;
 }
+*/
 
 .topnav .icon {
    display: none;
 }
 
-/*page-logo*/
-
-.page-logo {
-   position: absolute;
-   top: 0;
-   left: 0;
-   color: #ffffff;
+.hamburger {
+   font-size: 2rem;
 }
+
+/*page-logo*/
 
 /*header*/
 
@@ -80,6 +85,10 @@ body {
 .skatebording-evolve {
    background-color: #323232;
    color: #ffffff;
+}
+
+.live-in-the-moment {
+   overflow: auto;
 }
 
 .live-in-the-moment,
@@ -123,6 +132,7 @@ figcaption {
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 1rem;
+   background-color: #ffffff;
 }
 
 .page-footer {
@@ -134,10 +144,11 @@ figcaption {
 /*button*/
 
 .page-content-button {
-   width: 12rem;
+   width: 20rem;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 5rem;
    background: #FE6033;
    border-radius: 28px;
    font-size: 20px;
@@ -197,6 +208,13 @@ footer {
       text-align: center;
    }
 
+}
+
+@media (min-width:701px) {
+   .topnav {
+      height: 4.4rem;
+      padding-top: .5rem;
+   }
 }
 
 @media(min-width: 768px) {
