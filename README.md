@@ -1,1 +1,0 @@
-# Dynawit.pl
