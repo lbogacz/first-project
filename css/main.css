@@ -128,7 +128,16 @@ body {
    margin-bottom: 0;
 }
 
+/*gallery*/
 
+.gallery-wrapper,
+.feature {
+   display: none;
+}
+
+.page-content-product {
+   width: 100%;
+}
 
 .page-content-boards {
    text-align: center;
@@ -304,6 +313,10 @@ footer {
    }
 
    /*product-gallery*/
+   .gallery-wrapper,
+   .feature {
+      display: block;
+   }
    .featured-item {
       padding: 10rem 15rem;
    }
@@ -370,6 +383,8 @@ footer {
       float: left;
    }
    .page-content-product {
+      height: 500px;
+      overflow: auto;
       width: 50%;
       text-align: center;
       margin-left: 50%;
