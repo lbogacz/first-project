@@ -98,10 +98,9 @@ function koowhel() {
       var images = [
          'img/packing-list-kooboard-koowheel-electric-skateboard.jpg',
          'img/onyx1.jpg',
-         'img/onyxbiale.jpg',
+         'img/ONYXBIALE.jpg',
          'img/onyxbiale4.png',
          'img/onyxbiale5.png'
-
          ];
 
       //Set Initial Featured Image
