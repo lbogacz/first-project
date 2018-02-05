@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="pl">
+<body>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-   <meta name="keywords" content="skateboard, hoverboard">
-   <meta name="description" content="Najlepsza strona i jedyna w Polsce z eletrycznymi skateboard">
-   <meta name="author" content="Lukasz Bogacz">
-   <title>Dynawit</title>
-   <link rel="stylesheet" href="css/main.css">
-   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-   <script src="js/script.js"></script>
-   <script src="js/koowhel.js"></script>
-</head>
-
-<body onload="koowhel();">
-   <header class="page-header">
-      <nav class="topnav" id="myTopnav">
-         <a href="index.html">Home</a>
-         <a href="news.html">News</a>
-         <a href="product.html" class="active">Produkty</a>
-         <a href="contact.html">Kontakt</a>
-         <a href="about.html">O Dynawit.pl</a>
-         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><span class="hamburger">&#9776;</span></a>
-      </nav>
-      <figure>
-         <img src="img/hoverboard-2003088_1920.jpg" alt="hoverboard">
-      </figure>
-   </header>
    <section class="page-section-content product">
       <aside class="content-wrapper koowhel">
          <div class="feature">
@@ -78,16 +49,4 @@
          </p>
       </aside>
    </section>
-   <footer class="page-footer">
-      <aside class="page-footer-contact">
-         <a href="https://www.facebook.com/Trrrigerr/" target="_blank"><i class="fab fa-facebook"></i></a>
-      </aside>
-      <aside clas="footer">
-         <p>Wszelkie Prawa Zastrzezone &copy;</p>
-         <p>Design by lbogacz</p>
-      </aside>
-   </footer>
-
 </body>
-
-</html>
