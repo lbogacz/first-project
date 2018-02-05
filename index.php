@@ -17,7 +17,7 @@
 <body>
    <header class="page-header">
       <nav class="topnav" id="myTopnav">
-         <a href="index.html" class="active">Home</a>
+         <a href="index.php" class="active">Home</a>
          <a href="news.php">News</a>
          <a href="product.php">Produkty</a>
          <a href="contact.php">Kontakt</a>
