@@ -147,6 +147,10 @@ body {
    background-color: #ffffff;
 }
 
+.page-content-boards a {
+   text-decoration: none;
+   color: #ffffff;
+}
 
 /*button*/
 
@@ -193,6 +197,14 @@ footer {
    color: #FE6033;
 }
 
+.allegro {
+   height: 100px;
+   width: 200px;
+}
+
+.allegro img {
+   max-width: 100%;
+}
 
 
 @media(min-width: 462px) {
@@ -296,6 +308,9 @@ footer {
       left: -30%;
       transition: all 0.6s ease;
    }
+   .product h2 {
+      margin-bottom: 2rem;
+   }
    .boards-cap-bot:hover figcaption {
       opacity: 1;
       left: 0;
@@ -320,7 +335,7 @@ footer {
    .featured-item {
       padding: 10rem 15rem;
    }
-   xy-center {
+   .xy-center {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -375,7 +390,21 @@ footer {
       border-top: none;
    }
    .move-btn {
-      display: none;
+      display: inline-block;
+      width: 50%;
+      border: none;
+      color: #ccc;
+      background-color: transparent;
+      padding: 0.2em 1.5em;
+   }
+   .move-btn:first-child {
+      border-right: none;
+   }
+   .move-btn.left {
+      cursor: w-resize;
+   }
+   .move-btn.right {
+      cursor: e-resize;
    }
 
    .content-wrapper {
@@ -383,8 +412,6 @@ footer {
       float: left;
    }
    .page-content-product {
-      height: 500px;
-      overflow: auto;
       width: 50%;
       text-align: center;
       margin-left: 50%;

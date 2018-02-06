@@ -1,4 +1,4 @@
-function koowhel() {
+function hoverboard() {
    var gallery = document.querySelector('.gallery');
    var galleryItems = document.querySelectorAll('.gallery-item');
    var numOfItems = gallery.children.length;
@@ -96,18 +96,17 @@ function koowhel() {
    //Start this baby up
    (function init() {
       var images = [
-         'img/packing-list-kooboard-koowheel-electric-skateboard.jpg',
-         'img/onyx1.jpg',
-         'img/ONYXBIALE.jpg',
-         'img/onyxbiale4.png',
-         'img/onyxbiale5.png',
-         'img/ONYXBIALE.jpg',
-         'img/packing-list-kooboard-koowheel-electric-skateboard.jpg',
-         'img/onyx1.jpg',
-         'img/ONYXBIALE.jpg',
-         'img/onyxbiale4.png',
-         'img/onyxbiale5.png',
-         'img/ONYXBIALE.jpg'
+         'img/h3.jpg',
+         'img/h4.jpg',
+         'img/s4b2.jpg',
+         'img/h3.jpg',
+         'img/h4.jpg',
+         'img/s4b2.jpg',
+         'img/h4.jpg',
+         'img/s4b2.jpg',
+         'img/h3.jpg',
+         'img/h4.jpg',
+         'img/s4b2.jpg'
          ];
 
       //Set Initial Featured Image

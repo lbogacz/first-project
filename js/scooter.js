@@ -101,7 +101,18 @@ function scooter() {
          'img/l8b3.jpg',
          'img/l8b4.jpg',
          'img/l8b5.jpg',
-         'img/l8b6.jpg'
+         'img/l8b6.jpg',
+         'img/l8frontback.jpg',
+         'img/l8kom.jpg',
+         'img/l8led.jpg',
+         'img/l8b2.jpg',
+         'img/l8b3.jpg',
+         'img/l8b4.jpg',
+         'img/l8b5.jpg',
+         'img/l8b6.jpg',
+         'img/l8frontback.jpg',
+         'img/l8kom.jpg',
+         'img/l8led.jpg'
          ];
 
       //Set Initial Featured Image
